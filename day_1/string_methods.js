@@ -25,3 +25,5 @@ const bool2 = false;
 const nl = null;
 
 const undef = undefined;
+
+// Changes from fabian
