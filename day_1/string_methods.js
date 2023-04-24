@@ -27,3 +27,4 @@ const nl = null;
 const undef = undefined;
 
 // Changes from fabian
+console.log(str)
