@@ -151,4 +151,9 @@ const padStartString = newStr2.padStart(100, "*");
     (right) of the current string. */
 
 const padEndString = newStr2.padEnd(100, "*");
-console.log(padEndString);
+// console.log(padEndString);
+
+const assign= "my name is fabian \"fAbian\""
+const testingAssign= assign.replace(/fa/gi, "FA")
+
+console.log(testingAssign)
