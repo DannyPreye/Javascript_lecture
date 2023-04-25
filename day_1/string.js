@@ -153,6 +153,12 @@ const padStartString = newStr2.padStart(100, "*");
 const padEndString = newStr2.padEnd(100, "*");
 // console.log(padEndString);
 
+
+const assign= "my name is fabian \"fAbian\""
+const testingAssign= assign.replace(/fa/gi, "FA")
+
+console.log(testingAssign)
+
 const assign = "my name is fAbian fabian"
 const assign2= "Fabian is a boy"
 const assign3= 'the name of fabian\'s teacher is dAniel'
@@ -166,3 +172,4 @@ console.log(testingAssign)
 console.log(testingAssign2)
 console.log(testingAssign3)
 console.log(testingAssign3b)
+
