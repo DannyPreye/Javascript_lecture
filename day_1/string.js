@@ -129,7 +129,7 @@ const startsWithString = sentence.startsWith("Fabian");
 /* The endsWith() method determines whether a string ends with the characters
     of another string, returning true or false as appropriate. */
 const endsWithString = sentence.endsWith("new");
-console.log(endsWithString);
+// console.log(endsWithString);
 
 // --------------- repeat method ---------------
 /* The repeat() method constructs and returns a new string which contains the
@@ -153,7 +153,23 @@ const padStartString = newStr2.padStart(100, "*");
 const padEndString = newStr2.padEnd(100, "*");
 // console.log(padEndString);
 
+
 const assign= "my name is fabian \"fAbian\""
 const testingAssign= assign.replace(/fa/gi, "FA")
 
 console.log(testingAssign)
+
+const assign = "my name is fAbian fabian"
+const assign2= "Fabian is a boy"
+const assign3= 'the name of fabian\'s teacher is dAniel'
+
+const testingAssign= assign.replace(/FA/gi, "FA")
+const testingAssign2= assign2.replace(/FA/gi, "FA")
+const testingAssign3= assign3.replace(/FA/gi, "FA" )
+const testingAssign3b= assign3.replace(/DA/gi, "DA")
+
+console.log(testingAssign)
+console.log(testingAssign2)
+console.log(testingAssign3)
+console.log(testingAssign3b)
+
